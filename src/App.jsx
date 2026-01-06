@@ -1,4 +1,22 @@
 import "./App.css";
+
+// Importing assets for contact
+import github from "./assets/contact/github.svg";
+import instagram from "./assets/contact/instagram.svg";
+import linkedin from "./assets/contact/linkedin.svg";
+
+// Importing assets for tech stack and projects
+import php from "./assets/project src/php.svg";
+import postgre from "./assets/project src/postgre.png";
+import html from "./assets/project src/html.svg";
+import css from "./assets/project src/css.svg";
+import docker from "./assets/project src/docker.svg";
+import node from "./assets/project src/nodejs.svg";
+import rt from "./assets/project src/react.svg";
+import js from "./assets/project src/js.svg";
+import bs from "./assets/project src/bs.svg";
+import tw from "./assets/project src/tailwind.svg";
+
 import siakadu from "./assets/siakadu.jpeg";
 import Lumora from "./assets/lumoraTech.png";
 import Averra from "./assets/averra.png";
@@ -40,7 +58,7 @@ function App() {
       </nav>
 
       <header
-        className="flex flex-row justify-around items-center text-white mt-30 h-96"
+        className="flex flex-row justify-evenly items-center text-white mt-30 h-96"
         id="home"
       >
         <div>
@@ -52,42 +70,55 @@ function App() {
             A Student from Surabaya State University, majoring in Informatics
             Engineering. <br></br>Passionate in Development world
           </p>
+          <div className="flex flex-row space-x-6 mt-3">
+            <a href="https://github.com/mhmd7ull">
+              <img src={github} alt="GitHub" className="w-10 h-10"></img>
+            </a>
+            <a href="https://www.instagram.com/Mhmd7ull/">
+              <img src={instagram} alt="Instagram" className="w-10 h-10"></img>
+            </a>
+            <a href="https://www.linkedin.com/in/Mhmd7ull/">
+              <img src={linkedin} alt="LinkedIn" className="w-10 h-10"></img>
+            </a>
+          </div>
         </div>
         <div>
-          <button className="bg-red-600 px-6 py-3 rounded-full text-white font-semibold hover:bg-red-700 transition duration-300">
-            Get in Touch
-          </button>
+          <div className="w-60 h-100 bg-gray-900 border-5 border-red-500 rounded-full hover:scale-105 transform transition duration-300"></div>
         </div>
       </header>
 
       <div className="mt-40 px-37" id="tech-stack">
         <div className="flex flex-col items-start">
           <h3 className="text-white">Tech</h3>
-          <h1 className="text-white font-bold text-4xl">Skill</h1>
+          <h1 className="text-white font-bold text-4xl">Stack</h1>
           <hr></hr>
           <div className="bg-red-500 w-20 h-1 mt-2"></div>
         </div>
         <div className="grid grid-cols-4 gap-6 mt-6 text-white">
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300">
+            <img src={js} alt="JavaScript" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">JavaScript</h4>
             <p>Flexible Language, needs more practise</p>
           </div>
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300">
+            <img src={rt} alt="React" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">React</h4>
             <p>UI Framework, but needs more practise</p>
           </div>
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300">
+            <img src={bs} alt="Bootstrap" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">Bootstrap</h4>
             <p>Easy to use</p>
           </div>
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300">
+            <img src={tw} alt="Tailwind CSS" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">Tailwind CSS</h4>
             <p>Same like Bootstrap, but just try once</p>
           </div>
         </div>
       </div>
 
-      <div className="mt-40 px-37" id="edu">
+      <div className="mt-30 px-37 py-10 bg-gray-700 w-235 h-96 rtl rounded-lg" id="edu">
         <div className="flex flex-col items-start">
           <h3 className="text-white">My</h3>
           <h1 className="text-white font-bold text-4xl">Education</h1>
@@ -97,7 +128,7 @@ function App() {
 
         <div className="mt-15 flex flex-row items-start space-x-10">
           <div>
-            <div className="bg-gray-900 w-5 h-5 border-2 border-red-700 rounded-full mb-1"></div>
+            <div className="bg-gray-900 w-5 h-5 border-2 border-red-700 rounded-full mb-1 animate-pulse"></div>
             <div className="h-20 border-l-3 border-white ml-2"></div>
             <div className="bg-red-500 w-5 h-5 rounded-full mt-1"></div>
           </div>
@@ -106,7 +137,10 @@ function App() {
               <h4 className="font-semibold">Surabaya State University</h4>
               <p>
                 Bachelor of Informatics Engineering
-                <span className="font-bold text-red-500"> (2024 - Present)</span>
+                <span className="font-bold text-red-500">
+                  {" "}
+                  (2024 - Present)
+                </span>
               </p>
             </div>
             <div className="mt-15 text-white">
@@ -136,6 +170,24 @@ function App() {
                   <img src={Lumora} className="w-full h-auto" />
                   <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-4">
                     <h4 className="font-bold text-white mb-2">Lumora Tech</h4>
+                    <div className="flex space-x-2">
+                      <img src={html} alt="React" className="w-10 h-10"></img>
+                      <img
+                        src={css}
+                        alt="Bootstrap"
+                        className="w-10 h-10"
+                      ></img>
+                      <img
+                        src={js}
+                        alt="Tailwind CSS"
+                        className="w-10 h-10"
+                      ></img>
+                      <img
+                        src={php}
+                        alt="PostgreSQL"
+                        className="w-10 h-10"
+                      ></img>
+                    </div>
                     <p className="text-gray-200 text-sm">
                       Online E-commerce that sells various tech products.
                     </p>
@@ -149,6 +201,19 @@ function App() {
                   <img src={Averra} className="w-full h-auto" />
                   <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-4">
                     <h4 className="font-bold text-white mb-2">Averra Store</h4>
+                    <div className="flex space-x-2">
+                      <img src={html} alt="React" className="w-10 h-10"></img>
+                      <img
+                        src={css}
+                        alt="Bootstrap"
+                        className="w-10 h-10"
+                      ></img>
+                      <img
+                        src={js}
+                        alt="Tailwind CSS"
+                        className="w-10 h-10"
+                      ></img>
+                    </div>
                     <p className="text-gray-200 text-sm">
                       Online E-commerce that sells various in-game items from
                       any games.
@@ -163,6 +228,19 @@ function App() {
                   <img src={TehTea} className="w-full h-auto" />
                   <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-4">
                     <h4 className="font-bold text-white mb-2">TehTea</h4>
+                    <div className="flex space-x-2">
+                      <img src={html} alt="React" className="w-10 h-10"></img>
+                      <img
+                        src={css}
+                        alt="Bootstrap"
+                        className="w-10 h-10"
+                      ></img>
+                      <img
+                        src={js}
+                        alt="Tailwind CSS"
+                        className="w-10 h-10"
+                      ></img>
+                    </div>
                     <p className="text-gray-200 text-sm">
                       Online Tea Shop that sells various tea and some drinks
                       products.
@@ -179,8 +257,29 @@ function App() {
                     <h4 className="font-bold text-white mb-2">
                       Academic System (Siakadu)
                     </h4>
+                    <div className="flex space-x-2">
+                      <img src={rt} alt="React" className="w-10 h-10"></img>
+                      <img src={bs} alt="Bootstrap" className="w-10 h-10"></img>
+                      <img
+                        src={node}
+                        alt="Tailwind CSS"
+                        className="w-10 h-10"
+                      ></img>
+                      <img
+                        src={postgre}
+                        alt="PostgreSQL"
+                        className="w-10 h-10"
+                      ></img>
+                      <img
+                        src={docker}
+                        alt="Docker"
+                        className="w-10 h-10"
+                      ></img>
+                    </div>
                     <p className="text-gray-200 text-sm">
                       Academic Information System for University students.
+                      Project that i made with my team. Also my role as
+                      Frontend.
                     </p>
                   </div>
                 </a>
@@ -188,10 +287,18 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+        <div className="flex flex-row space-x-10 mt-10 justify-center font-bold text-lg text-white">
+          <a href="https://mhmd7ull.github.io/TicTacToe/">
+            Click here to play tic tac toe
+          </a>
+          <a href="https://calculator-three-kappa-81.vercel.app/">
+            Click here to test Calculator
+          </a>
+        </div>
 
-      <div className="mt-40 text-center text-gray-500">
-        <p>© 2024 MyPortfolio. All rights reserved.</p>
+        <div className="mt-40 text-center text-gray-500 py-15">
+          <p>© 2024 MyPortfolio. All rights reserved.</p>
+        </div>
       </div>
     </div>
   );
