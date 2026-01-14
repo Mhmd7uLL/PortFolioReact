@@ -1,4 +1,4 @@
-// Importing assets for contact
+// Importing assets
 import github from "../../assets/contact/github.svg";
 import instagram from "../../assets/contact/instagram.svg";
 import linkedin from "../../assets/contact/linkedin.svg";
