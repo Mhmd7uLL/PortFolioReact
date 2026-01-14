@@ -15,13 +15,13 @@ function Navbar() {
         <div>
           <ul className="flex space-x-9">
             <li className="hover:text-red-600 transition duration-300">
-              <Link to="/">Home</Link>
+              <Link to="/">About</Link>
             </li>
             <li className="hover:text-red-600 transition duration-300">
               <Link to="/projects">Projects</Link>
             </li>
             <li className="hover:text-red-600 transition duration-300">
-              <Link to="/about">About</Link>
+              <Link to="/about">Contact</Link>
             </li>
           </ul>
         </div>

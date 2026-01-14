@@ -1,4 +1,4 @@
-// Importing assets for tech stack and projects
+// Importing assets for tech stack
 import php from "../../assets/project src/php.svg";
 import postgre from "../../assets/project src/postgre.png";
 import html from "../../assets/project src/html.svg";
@@ -10,10 +10,13 @@ import js from "../../assets/project src/js.svg";
 import bs from "../../assets/project src/bs.svg";
 import tw from "../../assets/project src/tailwind.svg";
 
+// Importing project pics
 import siakadu from "../../assets/siakadu.jpeg";
 import Lumora from "../../assets/lumoraTech.png";
 import Averra from "../../assets/averra.png";
 import TehTea from "../../assets/tehtea.png";
+import calc from "../../assets/calc.png";
+import tictac from "../../assets/tic-tac-toe.png";
 
 function Projects() {
   return (
@@ -181,13 +184,55 @@ function Projects() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row space-x-10 mt-10 justify-center font-bold text-lg text-white">
-          <a href="https://mhmd7ull.github.io/TicTacToe/">
-            Click here to play tic tac toe
-          </a>
-          <a href="https://calculator-three-kappa-81.vercel.app/">
-            Click here to test Calculator
-          </a>
+
+        <div className="flex flex-col items-start px-37 mt-40">
+          <h3 className="text-white">Live</h3>
+          <h1 className="text-white font-bold text-4xl">Projects</h1>
+          <hr></hr>
+          <div className="bg-red-500 w-20 h-1 mt-2"></div>
+        </div>
+
+        <div className="grid grid-cols-2 gap-6 mt-6 text-white px-37">
+          <div className="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transform transition duration-300">
+            <div className="relative hover:cursor-pointer">
+              <a href="https://calculator-three-kappa-81.vercel.app/">
+                <img src={calc} className="w-full h-auto" />
+                <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-4">
+                  <h4 className="font-bold text-white mb-2">Calculator</h4>
+                  <div className="flex space-x-2">
+                    <img src={html} alt="html" className="w-10 h-10"></img>
+                    <img src={css} alt="cs" className="w-10 h-10"></img>
+                  </div>
+                  <p className="text-gray-200 text-sm">
+                    Simple calculator project
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div className="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transform transition duration-300">
+            <div className="relative hover:cursor-pointer">
+              <a href="https://mhmd7ull.github.io/TicTacToe/">
+                <img src={tictac} className="w-full h-auto" />
+                <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-4">
+                  <h4 className="font-bold text-white mb-2">Tic Tac Toe</h4>
+                  <div className="flex space-x-2">
+                    <img src={html} alt="html" className="w-10 h-10"></img>
+                    <img src={css} alt="css" className="w-10 h-10"></img>
+                    <img
+                      src={js}
+                      alt="javascript"
+                      className="w-10 h-10"
+                    ></img>
+                  </div>
+                  <p className="text-gray-200 text-sm">
+                    Online E-commerce that sells various in-game items from any
+                    games.
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
