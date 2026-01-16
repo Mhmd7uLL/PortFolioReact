@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="flex justify-center items-center shadow-xl py-6 bg-gray-900">
+    <nav className="relative z-20 flex justify-center items-center shadow-xl py-6 bg-gray-900">
       <div
         className="flex justify-between font-semibold text-white"
         style={{ width: "80%" }}

@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
+import Particle from "./components/ParticlesBackground/ParticlesBackground.jsx";
 import Navbar from "./components/Navbar/Navbar.jsx";
 import About from "./page/About/About.jsx";
 import Projects from "./page/Projects/Projects.jsx";
@@ -9,7 +10,8 @@ import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
-    <div className="App bg-gray-900 min-h-screen">
+    <div className="App bg-gray-900 min-h-screen relative overflow-hidden">
+      <Particle />
       <Navbar />
 
       <Routes>

@@ -29,22 +29,22 @@ function Projects() {
           <div className="bg-red-500 w-20 h-1 mt-2"></div>
         </div>
         <div className="grid grid-cols-4 gap-6 mt-6 text-white">
-          <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300">
+          <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={js} alt="JavaScript" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">JavaScript</h4>
             <p>Flexible Language, needs more practise</p>
           </div>
-          <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300">
+          <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={rt} alt="React" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">React</h4>
             <p>UI Framework, but needs more practise</p>
           </div>
-          <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300">
+          <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={bs} alt="Bootstrap" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">Bootstrap</h4>
             <p>Easy to use</p>
           </div>
-          <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300">
+          <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={tw} alt="Tailwind CSS" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">Tailwind CSS</h4>
             <p>Same like Bootstrap, but just try once</p>
