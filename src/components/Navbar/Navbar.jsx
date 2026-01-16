@@ -9,7 +9,7 @@ function Navbar() {
       >
         <div className="font-bold text-xl">
           <h1>
-            <span className="text-red-600">Mhmd</span>7uLL
+            <span className="text-red-600">JuLL</span>Porto
           </h1>
         </div>
         <div>

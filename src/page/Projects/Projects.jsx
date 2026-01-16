@@ -21,7 +21,7 @@ import tictac from "../../assets/tic-tac-toe.png";
 function Projects() {
   return (
     <div>
-      <div className="mt-40 px-37" id="tech-stack">
+      <div className="mt-40 px-40" id="tech-stack">
         <div className="flex flex-col items-start">
           <h3 className="text-white">Tech</h3>
           <h1 className="text-white font-bold text-4xl">Stack</h1>
@@ -52,7 +52,7 @@ function Projects() {
         </div>
       </div>
       <div id="projects">
-        <div className="mt-40 px-37">
+        <div className="mt-40 px-40">
           <div className="flex flex-col items-start">
             <h3 className="text-white">My</h3>
             <h1 className="text-white font-bold text-4xl">Projects</h1>

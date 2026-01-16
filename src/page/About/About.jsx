@@ -14,9 +14,9 @@ function About() {
         id="home"
       >
         <div>
-          <h1 className="text-8xl font-light mb-4">
+          <h1 className="text-8xl font-light mb-4 z-10">
             Hello!, I'm<br></br>
-            <span className="font-medium">Julian</span>
+            <span className="font-medium z-100">Julian</span>
           </h1>
           <p className="text-lg text-gray-700 w-3/4">
             A Student from Surabaya State University, majoring in Informatics
@@ -41,6 +41,7 @@ function About() {
 
       <div className="h-2 w-256 mx-auto mb-30 bg-gradient-to-r from-transparent via-red-500/80 to-transparent"></div>
 
+      
       <div className="px-40">
         <div className="flex flex-col items-start">
           <h3 className="text-white">My</h3>
@@ -79,9 +80,9 @@ function About() {
           </div>
         </div>
 
-        <div className="mt-10 pb-20 bg-gray-800 p-10 rounded-lg">
+        <div className="mt-10 bg-gray-800 pt-2 pb-16 px-15 rounded-lg">
           {active === "education" && (
-            <div className="mt-15 flex flex-row items-start space-x-10">
+            <div className="animate-fade-slide mt-15 flex flex-row items-start space-x-10">
               <div>
                 <div className="bg-red-500 w-5 h-5 rounded-full mb-1 animate-pulse"></div>
                 <div className="h-24 border-l-3 border-white ml-2"></div>
@@ -93,7 +94,7 @@ function About() {
                     Surabaya State University
                   </h4>
                   <p>
-                    Bachelor of Informatics Engineering
+                    Undergraduate of Informatics Engineering
                     <span className="font-bold text-red-500">
                       {" "}
                       (2024 - Present)
@@ -117,7 +118,7 @@ function About() {
           )}
 
           {active === "experience" && (
-            <div className="mt-15 flex flex-row items-start space-x-10">
+            <div className="animate-fade-slide mt-15 flex flex-row items-start space-x-10">
               <div>
                 <div className="bg-red-500 w-5 h-5 rounded-full mb-1 animate-pulse"></div>
                 <div className="h-20 border-l-3 border-white ml-2"></div>
