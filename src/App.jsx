@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Particle from "./components/ParticlesBackground/ParticlesBackground.jsx";
 import Navbar from "./components/Navbar/Navbar.jsx";
+import Home from "./page/Home/Home.jsx";
 import About from "./page/About/About.jsx";
 import Projects from "./page/Projects/Projects.jsx";
 import Contact from "./page/Contact/Contact.jsx";
@@ -15,9 +16,10 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<About />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<Contact />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       
       <Footer />

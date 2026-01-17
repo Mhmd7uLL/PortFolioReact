@@ -1,14 +1,15 @@
 // Importing assets for tech stack
-import php from "../../assets/project src/php.svg";
-import postgre from "../../assets/project src/postgre.png";
-import html from "../../assets/project src/html.svg";
-import css from "../../assets/project src/css.svg";
-import docker from "../../assets/project src/docker.svg";
-import node from "../../assets/project src/nodejs.svg";
-import rt from "../../assets/project src/react.svg";
-import js from "../../assets/project src/js.svg";
-import bs from "../../assets/project src/bs.svg";
-import tw from "../../assets/project src/tailwind.svg";
+import php from "../../assets/project-src/php.svg";
+import postgre from "../../assets/project-src/postgre.png";
+import html from "../../assets/project-src/html.svg";
+import css from "../../assets/project-src/css.svg";
+import docker from "../../assets/project-src/docker.svg";
+import node from "../../assets/project-src/nodejs.svg";
+import rt from "../../assets/project-src/react.svg";
+import js from "../../assets/project-src/js.svg";
+import bs from "../../assets/project-src/bs.svg";
+import tw from "../../assets/project-src/tailwind.svg";
+import github from "../../assets/contact/github.svg";
 
 // Importing project pics
 import siakadu from "../../assets/siakadu.jpeg";
@@ -21,10 +22,10 @@ import tictac from "../../assets/tic-tac-toe.png";
 function Projects() {
   return (
     <div>
-      <div className="mt-40 px-40" id="tech-stack">
+      <div className="mt-30 px-40" id="tech-stack">
         <div className="flex flex-col items-start">
           <h3 className="text-white">Tech</h3>
-          <h1 className="text-white font-bold text-4xl">Stack</h1>
+          <h1 className="text-white font-bold text-4xl">That i use</h1>
           <hr></hr>
           <div className="bg-red-500 w-20 h-1 mt-2"></div>
         </div>
@@ -37,7 +38,7 @@ function Projects() {
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={rt} alt="React" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">React</h4>
-            <p>UI Framework, but needs more practise</p>
+            <p>JS Library for UI</p>
           </div>
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={bs} alt="Bootstrap" className="w-12 h-12 mb-4"></img>
@@ -47,12 +48,17 @@ function Projects() {
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={tw} alt="Tailwind CSS" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">Tailwind CSS</h4>
-            <p>Same like Bootstrap, but just try once</p>
+            <p>More FLexibel than Bootstrap</p>
+          </div>
+          <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
+            <img src={github} alt="GitHub" className="w-12 h-12 mb-4"></img>
+            <h4 className="font-bold mb-2">GitHub</h4>
+            <p>Saving repositories and code</p>
           </div>
         </div>
       </div>
       <div id="projects">
-        <div className="mt-40 px-40">
+        <div className="mt-48 px-40">
           <div className="flex flex-col items-start">
             <h3 className="text-white">My</h3>
             <h1 className="text-white font-bold text-4xl">Projects</h1>
@@ -86,7 +92,8 @@ function Projects() {
                       ></img>
                     </div>
                     <p className="text-gray-200 text-sm">
-                      Online E-commerce that sells various tech products.
+                      Online E-commerce that sells various tech products. Such as laptop,
+                      computer, and accessories.
                     </p>
                   </div>
                 </a>
@@ -226,8 +233,7 @@ function Projects() {
                     ></img>
                   </div>
                   <p className="text-gray-200 text-sm">
-                    Online E-commerce that sells various in-game items from any
-                    games.
+                    Simple JS Tic Tac Toe game
                   </p>
                 </div>
               </a>

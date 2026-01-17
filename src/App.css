@@ -16,3 +16,7 @@
 .animate-fade-slide {
   animation: fadeSlide 0.35s ease-out;
 }
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+}
