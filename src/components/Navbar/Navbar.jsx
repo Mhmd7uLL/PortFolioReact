@@ -9,7 +9,7 @@ function Navbar() {
       >
         <div className="font-bold text-xl">
           <h1>
-            <Link to="/">JuLLPorto</Link>
+            <Link to="/">mhmd7uLL</Link>
           </h1>
         </div>
         <div>
