@@ -26,7 +26,8 @@ function About() {
             challenge my problem-solving skills and allow me to contribute to
             innovative solutions.<br></br>
             <br></br>
-            My goal is to continuously improve my skills, which is Full Stack Development, and contribute to impactful projects in the tech
+            My goal is to continuously improve my skills, which is Full Stack
+            Development, and contribute to impactful projects in the tech
             industry. I'm excited about the opportunities ahead and eager to
             make a positive impact through technology.
           </p>

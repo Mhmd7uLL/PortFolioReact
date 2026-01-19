@@ -53,7 +53,7 @@ function Projects() {
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={github} alt="GitHub" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">GitHub</h4>
-            <p>Saving repositories and code</p>
+            <p>Make repositories and saving the code</p>
           </div>
         </div>
       </div>

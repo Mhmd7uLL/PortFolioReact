@@ -29,6 +29,14 @@ function Home() {
             A Student from Surabaya State University, majoring in Informatics
             Engineering. <br></br>Passionate in Development world
           </p>
+          <a
+            className="text-gray-400 mt-4 inline-block hover:underline"
+            href=""
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <h3>See my CV here ↗</h3>
+          </a>
           <div className="relative z-10 flex flex-row space-x-6 mt-5">
             <button className="hover:cursor-pointer hover:bg-red-500 border-2 border-red-500 text-white py-2 px-4 rounded-md">
               <Link to="/about">Get to know more about me</Link>
@@ -56,8 +64,8 @@ function Home() {
           <hr></hr>
           <div className="relative z-10 flex flex-row justify-between items-center w-full mt-2 mb-3 text-white">
             <div className="bg-red-500 w-20 h-1 mt-2"></div>
-            <p>
-                <Link to="/projects">Show All</Link>
+            <p className="hover:text-gray-400 hover:cursor-pointer">
+              <Link to="/projects">Show All</Link>
             </p>
           </div>
         </div>
@@ -110,8 +118,8 @@ function Home() {
                     ></img>
                   </div>
                   <p className="text-gray-200 text-sm">
-                    Portfolio Website built using React.js and Tailwind CSS for showcase my
-                    projects and skills.
+                    Portfolio Website built using React.js and Tailwind CSS for
+                    showcase my projects and skills.
                   </p>
                 </div>
               </a>
