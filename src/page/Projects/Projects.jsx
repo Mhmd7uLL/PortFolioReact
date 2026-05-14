@@ -33,7 +33,7 @@ function Projects() {
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={js} alt="JavaScript" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">JavaScript</h4>
-            <p>Flexible Language, needs more practise</p>
+            <p>Cool language needs more practise</p>
           </div>
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={rt} alt="React" className="w-12 h-12 mb-4"></img>
@@ -48,7 +48,7 @@ function Projects() {
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={tw} alt="Tailwind CSS" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">Tailwind CSS</h4>
-            <p>More FLexibel than Bootstrap</p>
+            <p>More Flexibel than Bootstrap</p>
           </div>
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={github} alt="GitHub" className="w-12 h-12 mb-4"></img>
