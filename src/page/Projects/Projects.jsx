@@ -192,7 +192,7 @@ function Projects() {
           </div>
         </div>
 
-        <div className="flex flex-col items-start px-37 mt-40">
+        <div className="flex flex-col items-start px-40 mt-40">
           <h3 className="text-white">Live</h3>
           <h1 className="text-white font-bold text-4xl">Projects</h1>
           <hr></hr>
