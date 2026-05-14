@@ -66,7 +66,7 @@ function Projects() {
             <div className="bg-red-500 w-20 h-1 mt-2"></div>
           </div>
 
-          <div className="grid grid-cols-2 gap-6 mt-6 text-white ">
+          <div className="grid grid-cols-2 gap-6 mt-6 text-white">
             <div className="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transform transition duration-300">
               <div className="relative hover:cursor-pointer">
                 <a href="https://github.com/Mhmd7uLL/LumoraTech-store">
@@ -199,7 +199,7 @@ function Projects() {
           <div className="bg-red-500 w-20 h-1 mt-2"></div>
         </div>
 
-        <div className="grid grid-cols-2 gap-6 mt-6 text-white px-37">
+        <div className="grid grid-cols-2 gap-6 mt-6 text-white">
           <div className="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transform transition duration-300">
             <div className="relative hover:cursor-pointer">
               <a href="https://calculator-three-kappa-81.vercel.app/">
