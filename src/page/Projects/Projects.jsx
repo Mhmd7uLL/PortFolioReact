@@ -37,7 +37,11 @@ function Projects() {
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={js} alt="JavaScript" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">JavaScript</h4>
+<<<<<<< HEAD
             <p>Language that i learnt</p>
+=======
+            <p>Cool language needs more practise</p>
+>>>>>>> 45814d89a90a9801fce2ec9d1b7e9057ae0c1e35
           </div>
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={rt} alt="React" className="w-12 h-12 mb-4"></img>
@@ -62,7 +66,7 @@ function Projects() {
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={tw} alt="Tailwind CSS" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">Tailwind CSS</h4>
-            <p>More FLexibel than Bootstrap</p>
+            <p>More Flexibel than Bootstrap</p>
           </div>
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={github} alt="GitHub" className="w-12 h-12 mb-4"></img>
@@ -85,7 +89,7 @@ function Projects() {
             <div className="bg-red-500 w-20 h-1 mt-2"></div>
           </div>
 
-          <div className="grid grid-cols-2 gap-6 mt-6 text-white ">
+          <div className="grid grid-cols-2 gap-6 mt-6 text-white">
             <div className="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transform transition duration-300">
               <div className="relative hover:cursor-pointer">
                 <a href="https://github.com/Mhmd7uLL/catatan-belanja">
@@ -268,7 +272,19 @@ function Projects() {
             </div>
           </div>
         </div>
+<<<<<<< HEAD
         <div className="grid grid-cols-2 gap-6 mt-6 text-white px-37">
+=======
+
+        <div className="flex flex-col items-start px-40 mt-40">
+          <h3 className="text-white">Live</h3>
+          <h1 className="text-white font-bold text-4xl">Projects</h1>
+          <hr></hr>
+          <div className="bg-red-500 w-20 h-1 mt-2"></div>
+        </div>
+
+        <div className="grid grid-cols-2 gap-6 mt-6 text-white px-40">
+>>>>>>> 45814d89a90a9801fce2ec9d1b7e9057ae0c1e35
           <div className="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transform transition duration-300">
             <div className="relative hover:cursor-pointer">
               <a href="https://calculator-three-kappa-81.vercel.app/">

@@ -195,7 +195,7 @@ function About() {
                     <span className="text-red-500 font-bold"> (July 2025)</span>
                   </p>
                   <a
-                    href="https://drive.google.com/file/d/1j3BpABp2EKx2KNrIE8SoS0EOW49FqHC2/view?usp=sharing"
+                    href="https://drive.google.com/file/d/100VMD2_yDQBjizEcsbzLmrxBACONuWyu/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="relative z-10 bg-red-500 py-1 px-2 text-red-100 rounded-sm hover:bg-red-900 text-xl cursor-pointer"
