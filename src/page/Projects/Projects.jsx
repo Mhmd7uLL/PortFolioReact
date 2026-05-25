@@ -10,6 +10,8 @@ import js from "../../assets/project-src/js.svg";
 import bs from "../../assets/project-src/bs.svg";
 import tw from "../../assets/project-src/tailwind.svg";
 import github from "../../assets/contact/github.svg";
+import ex from "../../assets/project-src/express.png";
+import git from "../../assets/project-src/git.png";
 
 // Importing project pics
 import siakadu from "../../assets/siakadu.jpeg";
@@ -18,6 +20,8 @@ import Averra from "../../assets/averra.png";
 import TehTea from "../../assets/tehtea.png";
 import calc from "../../assets/calc.png";
 import tictac from "../../assets/tic-tac-toe.png";
+import porto from "../../assets/porto.png";
+import catatB from "../../assets/catatan.png";
 
 function Projects() {
   return (
@@ -33,12 +37,22 @@ function Projects() {
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={js} alt="JavaScript" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">JavaScript</h4>
-            <p>Flexible Language, needs more practise</p>
+            <p>Language that i learnt</p>
           </div>
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={rt} alt="React" className="w-12 h-12 mb-4"></img>
             <h4 className="font-bold mb-2">React</h4>
-            <p>JS Library for UI</p>
+            <p>JavaScript Library for UI</p>
+          </div>
+          <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
+            <img src={node} alt="JavaScript" className="w-12 h-12 mb-4"></img>
+            <h4 className="font-bold mb-2">Node.Js</h4>
+            <p>JavaScript Server runner</p>
+          </div>
+          <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
+            <img src={ex} alt="React" className="w-12 h-12 mb-4"></img>
+            <h4 className="font-bold mb-2">Express.Js</h4>
+            <p>Backend Framework from Node Js</p>
           </div>
           <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
             <img src={bs} alt="Bootstrap" className="w-12 h-12 mb-4"></img>
@@ -55,6 +69,11 @@ function Projects() {
             <h4 className="font-bold mb-2">GitHub</h4>
             <p>Make repositories and saving the code</p>
           </div>
+          <div className="bg-gray-800 p-6 rounded-lg text-start hover:scale-105 transform transition duration-300 z-100">
+            <img src={git} alt="GitHub" className="w-12 h-12 mb-4"></img>
+            <h4 className="font-bold mb-2">Git</h4>
+            <p>Version Control System (VCS)</p>
+          </div>
         </div>
       </div>
       <div id="projects">
@@ -67,6 +86,64 @@ function Projects() {
           </div>
 
           <div className="grid grid-cols-2 gap-6 mt-6 text-white ">
+            <div className="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transform transition duration-300">
+              <div className="relative hover:cursor-pointer">
+                <a href="https://github.com/Mhmd7uLL/catatan-belanja">
+                  <img src={catatB} className="w-full h-auto" />
+                  <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-4">
+                    <h4 className="font-bold text-white mb-2">Catatan Belanja</h4>
+                    <div className="flex space-x-2">
+                      <img
+                        src={js}
+                        alt="JavaScript"
+                        className="w-10 h-10"
+                      ></img>
+                      <img src={rt} alt="React" className="w-10 h-10"></img>
+                      <img
+                        src={node}
+                        alt="NodeJS"
+                        className="w-10 h-10"
+                      ></img>
+                      <img
+                        src={ex}
+                        alt="NodeJS"
+                        className="w-10 h-10"
+                      ></img>
+                    </div>
+                    <p className="text-gray-200 text-sm">
+                      Simple shopping list. It's basically just the frontend, but I added simple backend server.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transform transition duration-300">
+              <div className="relative hover:cursor-pointer">
+                <a href="https://github.com/Mhmd7uLL/PortFolioReact">
+                  <img src={porto} className="w-full h-auto" />
+                  <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-4">
+                    <h4 className="font-bold text-white mb-2">Portfolio</h4>
+                    <div className="flex space-x-2">
+                      <img
+                        src={js}
+                        alt="Tailwind CSS"
+                        className="w-10 h-10"
+                      ></img>
+                      <img src={rt} alt="React" className="w-10 h-10"></img>
+                      <img
+                        src={tw}
+                        alt="Tailwind CSS"
+                        className="w-10 h-10"
+                      ></img>
+                    </div>
+                    <p className="text-gray-200 text-sm">
+                      Online E-commerce that sells various in-game items from
+                      any games.
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
             <div className="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transform transition duration-300">
               <div className="relative hover:cursor-pointer">
                 <a href="https://github.com/Mhmd7uLL/LumoraTech-store">
@@ -92,8 +169,8 @@ function Projects() {
                       ></img>
                     </div>
                     <p className="text-gray-200 text-sm">
-                      Online E-commerce that sells various tech products. Such as laptop,
-                      computer, and accessories.
+                      Online E-commerce that sells various tech products. Such
+                      as laptop, computer, and accessories.
                     </p>
                   </div>
                 </a>
@@ -166,7 +243,7 @@ function Projects() {
                       <img src={bs} alt="Bootstrap" className="w-10 h-10"></img>
                       <img
                         src={node}
-                        alt="Tailwind CSS"
+                        alt="NodeJS"
                         className="w-10 h-10"
                       ></img>
                       <img
@@ -191,14 +268,6 @@ function Projects() {
             </div>
           </div>
         </div>
-
-        <div className="flex flex-col items-start px-37 mt-40">
-          <h3 className="text-white">Live</h3>
-          <h1 className="text-white font-bold text-4xl">Projects</h1>
-          <hr></hr>
-          <div className="bg-red-500 w-20 h-1 mt-2"></div>
-        </div>
-
         <div className="grid grid-cols-2 gap-6 mt-6 text-white px-37">
           <div className="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transform transition duration-300">
             <div className="relative hover:cursor-pointer">
@@ -226,11 +295,7 @@ function Projects() {
                   <div className="flex space-x-2">
                     <img src={html} alt="html" className="w-10 h-10"></img>
                     <img src={css} alt="css" className="w-10 h-10"></img>
-                    <img
-                      src={js}
-                      alt="javascript"
-                      className="w-10 h-10"
-                    ></img>
+                    <img src={js} alt="javascript" className="w-10 h-10"></img>
                   </div>
                   <p className="text-gray-200 text-sm">
                     Simple JS Tic Tac Toe game

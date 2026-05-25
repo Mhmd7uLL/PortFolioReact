@@ -6,12 +6,12 @@ import node from "../../assets/project-src/nodejs.svg";
 import rt from "../../assets/project-src/react.svg";
 import js from "../../assets/project-src/js.svg";
 import bs from "../../assets/project-src/bs.svg";
-import tw from "../../assets/project-src/tailwind.svg";
+import ex from "../../assets/project-src/express.png";
 
 // Importing project pics
-import porto from "../../assets/porto.png";
 import siakadu from "../../assets/siakadu.jpeg";
 import mygambar from "../../assets/self-photo/me.png";
+import catatB from "../../assets/catatan.png";
 
 function Home() {
   return (
@@ -31,7 +31,7 @@ function Home() {
           </p>
           <a
             className="text-gray-400 mt-4 inline-block hover:underline"
-            href=""
+            href="https://drive.google.com/file/d/14KpT7TqYUbBTEiovWpuBw2Cnj0TkpV2O/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -59,8 +59,9 @@ function Home() {
 
       <div className="px-40 mb-40">
         <div className="flex flex-col items-start">
-          <h3 className="text-white">Latest</h3>
+          <h3 className="text-white">Full-stack</h3>
           <h1 className="text-white font-bold text-4xl">Projects</h1>
+          <p className="text-white">Also latest</p>
           <hr></hr>
           <div className="relative z-10 flex flex-row justify-between items-center w-full mt-2 mb-3 text-white">
             <div className="bg-red-500 w-20 h-1 mt-2"></div>
@@ -84,9 +85,10 @@ function Home() {
                     <img src={bs} alt="Bootstrap" className="w-10 h-10"></img>
                     <img
                       src={node}
-                      alt="Tailwind CSS"
+                      alt="Node"
                       className="w-10 h-10"
                     ></img>
+                    <img src={ex} alt="Express" className="w-10 h-10"></img>
                     <img src={docker} alt="Docker" className="w-10 h-10"></img>
                     <img
                       src={postgre}
@@ -103,28 +105,36 @@ function Home() {
             </div>
           </div>
           <div className="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transform transition duration-300">
-            <div className="relative hover:cursor-pointer">
-              <a href="https://github.com/Mhmd7uLL/PortfolioReact">
-                <img src={porto} className="w-full h-auto" />
-                <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-4">
-                  <h4 className="font-bold text-white mb-2">Portofolio</h4>
-                  <div className="flex space-x-2">
-                    <img src={js} alt="JavaScript" className="w-10 h-10"></img>
-                    <img src={rt} alt="React" className="w-10 h-10"></img>
-                    <img
-                      src={tw}
-                      alt="Tailwind CSS"
-                      className="w-10 h-10"
-                    ></img>
-                  </div>
-                  <p className="text-gray-200 text-sm">
-                    Portfolio Website built using React.js and Tailwind CSS for
-                    showcase my projects and skills.
-                  </p>
-                </div>
-              </a>
-            </div>
-          </div>
+                        <div className="relative hover:cursor-pointer">
+                          <a href="https://github.com/Mhmd7uLL/catatan-belanja">
+                            <img src={catatB} className="w-full h-auto" />
+                            <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-4">
+                              <h4 className="font-bold text-white mb-2">Catatan Belanja</h4>
+                              <div className="flex space-x-2">
+                                <img
+                                  src={js}
+                                  alt="JavaScript"
+                                  className="w-10 h-10"
+                                ></img>
+                                <img src={rt} alt="React" className="w-10 h-10"></img>
+                                <img
+                                  src={node}
+                                  alt="NodeJS"
+                                  className="w-10 h-10"
+                                ></img>
+                                <img
+                                  src={ex}
+                                  alt="NodeJS"
+                                  className="w-10 h-10"
+                                ></img>
+                              </div>
+                              <p className="text-gray-200 text-sm">
+                                Simple shopping list. It's basically just the frontend, but I added simple backend server.
+                              </p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
         </div>
       </div>
     </div>

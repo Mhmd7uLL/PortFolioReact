@@ -13,8 +13,7 @@ function Contact() {
 
       <div className="mt-10 mb-40">
         <p className="text-gray-100 text-lg">
-          I'm always open to discussing new projects, creative ideas, or
-          opportunities to be part of your visions. Feel free to reach out to me
+          Feel free to reach out to me
           at email : <br></br>
         </p>
         <p className="text-red-500 text-lg mt-6 font-semibold">

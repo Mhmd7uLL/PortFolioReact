@@ -1,5 +1,4 @@
 import { useState } from "react";
-// Importing assets
 
 function About() {
   const [active, setActive] = useState("education");
@@ -16,17 +15,16 @@ function About() {
         <div className="mt-10 mb-30">
           <p className="text-gray-100 text-lg text-justify">
             Hello! I'm Julian, an undergraduate student of Surabaya State
-            University, majoring in Informatics Engineering. Interested in Web
-            Development and passionate about creating engaging and user-friendly
-            web applications.<br></br>
+            University, majoring in Informatics Engineering or known as Computer Science. 
+            Interested in Web Development and passionate about creating engaging, scalable 
+            and user-friendly web applications.<br></br>
             <br></br>
             Throughout my academic journey, I've gained a solid foundation in
-            programming languages such as HTML, CSS, JavaScript. Now, i'm trying
-            to make the UI with React.js. I enjoy collaborating on projects that
-            challenge my problem-solving skills and allow me to contribute to
-            innovative solutions.<br></br>
+            programming languages such as C++ and JavaScript. I enjoy collaborating 
+            on projects that challenge my problem-solving skills and allow me to contribute 
+            to innovative solutions.<br></br>
             <br></br>
-            My goal is to continuously improve my skills, which is Full Stack
+            My goal is to continuously improve my skills on my specialization, which is Web
             Development, and contribute to impactful projects in the tech
             industry. I'm excited about the opportunities ahead and eager to
             make a positive impact through technology.
