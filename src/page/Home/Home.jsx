@@ -81,6 +81,11 @@ function Home() {
                     Academic System (Siakadu)
                   </h4>
                   <div className="flex space-x-2">
+                    <img
+                    src={js}
+                    alt="JavaScript"
+                    className="w-10 h-10"
+                    ></img>
                     <img src={rt} alt="React" className="w-10 h-10"></img>
                     <img src={bs} alt="Bootstrap" className="w-10 h-10"></img>
                     <img
