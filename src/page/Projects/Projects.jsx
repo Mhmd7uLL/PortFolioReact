@@ -126,7 +126,7 @@ function Projects() {
                     <div className="flex space-x-2">
                       <img
                         src={js}
-                        alt="Tailwind CSS"
+                        alt="JavaScript"
                         className="w-10 h-10"
                       ></img>
                       <img src={rt} alt="React" className="w-10 h-10"></img>
@@ -153,6 +153,11 @@ function Projects() {
                       Academic System (Siakadu)
                     </h4>
                     <div className="flex space-x-2">
+                      <img
+                        src={js}
+                        alt="JavaScript"
+                        className="w-10 h-10"
+                      ></img>
                       <img src={rt} alt="React" className="w-10 h-10"></img>
                       <img src={bs} alt="Bootstrap" className="w-10 h-10"></img>
                       <img
@@ -161,13 +166,18 @@ function Projects() {
                         className="w-10 h-10"
                       ></img>
                       <img
-                        src={postgre}
-                        alt="PostgreSQL"
+                        src={ex}
+                        alt="NodeJS"
                         className="w-10 h-10"
                       ></img>
                       <img
                         src={docker}
                         alt="Docker"
+                        className="w-10 h-10"
+                      ></img>
+                      <img
+                        src={postgre}
+                        alt="PostgreSQL"
                         className="w-10 h-10"
                       ></img>
                     </div>
