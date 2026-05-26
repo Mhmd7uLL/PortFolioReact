@@ -137,8 +137,7 @@ function Projects() {
                       ></img>
                     </div>
                     <p className="text-gray-200 text-sm">
-                      Online E-commerce that sells various in-game items from
-                      any games.
+                      My Portfolio website
                     </p>
                   </div>
                 </a>
