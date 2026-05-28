@@ -7,7 +7,7 @@ function Navbar() {
         className="flex justify-between font-semibold text-white"
         style={{ width: "80%" }}
       >
-        <div className="font-bold text-xl">
+        <div className="font-bold text-xl items-center">
           <h1>
             <Link to="/">mhmd7uLL</Link>
           </h1>
