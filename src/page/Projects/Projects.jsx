@@ -126,7 +126,7 @@ function Projects() {
                     <div className="flex space-x-2">
                       <img
                         src={js}
-                        alt="Tailwind CSS"
+                        alt="JavaScript"
                         className="w-10 h-10"
                       ></img>
                       <img src={rt} alt="React" className="w-10 h-10"></img>
@@ -137,8 +137,53 @@ function Projects() {
                       ></img>
                     </div>
                     <p className="text-gray-200 text-sm">
-                      Online E-commerce that sells various in-game items from
-                      any games.
+                      My Portfolio website
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transform transition duration-300">
+              <div className="relative hover:cursor-pointer">
+                <a href="https://github.com/Mhmd7uLL/siakadu">
+                  <img src={siakadu} className="w-full h-auto" />
+                  <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-4">
+                    <h4 className="font-bold text-white mb-2">
+                      Academic System (Siakadu)
+                    </h4>
+                    <div className="flex space-x-2">
+                      <img
+                        src={js}
+                        alt="JavaScript"
+                        className="w-10 h-10"
+                      ></img>
+                      <img src={rt} alt="React" className="w-10 h-10"></img>
+                      <img src={bs} alt="Bootstrap" className="w-10 h-10"></img>
+                      <img
+                        src={node}
+                        alt="NodeJS"
+                        className="w-10 h-10"
+                      ></img>
+                      <img
+                        src={ex}
+                        alt="NodeJS"
+                        className="w-10 h-10"
+                      ></img>
+                      <img
+                        src={docker}
+                        alt="Docker"
+                        className="w-10 h-10"
+                      ></img>
+                      <img
+                        src={postgre}
+                        alt="PostgreSQL"
+                        className="w-10 h-10"
+                      ></img>
+                    </div>
+                    <p className="text-gray-200 text-sm">
+                      Academic Information System for University students.
+                      Project that i made with my team. Also my role as
+                      Frontend.
                     </p>
                   </div>
                 </a>
@@ -225,42 +270,6 @@ function Projects() {
                     <p className="text-gray-200 text-sm">
                       Online Tea Shop that sells various tea and some drinks
                       products.
-                    </p>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div className="bg-gray-800 rounded-lg overflow-hidden hover:scale-105 transform transition duration-300">
-              <div className="relative hover:cursor-pointer">
-                <a href="https://github.com/Mhmd7uLL/siakadu">
-                  <img src={siakadu} className="w-full h-auto" />
-                  <div className="absolute inset-0 bg-black/60 flex flex-col justify-end p-4">
-                    <h4 className="font-bold text-white mb-2">
-                      Academic System (Siakadu)
-                    </h4>
-                    <div className="flex space-x-2">
-                      <img src={rt} alt="React" className="w-10 h-10"></img>
-                      <img src={bs} alt="Bootstrap" className="w-10 h-10"></img>
-                      <img
-                        src={node}
-                        alt="NodeJS"
-                        className="w-10 h-10"
-                      ></img>
-                      <img
-                        src={postgre}
-                        alt="PostgreSQL"
-                        className="w-10 h-10"
-                      ></img>
-                      <img
-                        src={docker}
-                        alt="Docker"
-                        className="w-10 h-10"
-                      ></img>
-                    </div>
-                    <p className="text-gray-200 text-sm">
-                      Academic Information System for University students.
-                      Project that i made with my team. Also my role as
-                      Frontend.
                     </p>
                   </div>
                 </a>
